@@ -1,4 +1,4 @@
-kind = input("what you want to convert, C or F: ")
+kind = input("what you want to convert, C or F: ").upper()
 num = int(input("enter the temperature: "))
 if kind == "C":
     print("the temperature in fahrenheit is: ", ((num * 1.8) + 32))
